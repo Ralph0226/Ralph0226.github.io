@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>刚需效率软件合集</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="shell">
+    <aside class="side">
+      <div class="brand">
+        <div class="mark">10</div>
+        <div>
+          <h1>刚需效率软件合集</h1>
+          <p>学生、白领、电脑工作者的十个小工具</p>
+        </div>
+      </div>
+      <div class="searchbox">
+        <input id="appSearch" placeholder="搜索工具、场景、人群">
+      </div>
+      <nav id="appNav" class="app-nav"></nav>
+    </aside>
+
+    <main class="main">
+      <section class="hero">
+        <div>
+          <p class="eyebrow">可上传 GitHub Pages / 可改微信小程序</p>
+          <h2 id="appTitle">加载中</h2>
+          <p id="appDesc" class="lead"></p>
+        </div>
+        <div class="hero-actions">
+          <button id="copyReportBtn">复制传播文案</button>
+          <button id="exportBtn">导出数据</button>
+          <button id="clearBtn" class="danger">清空当前工具</button>
+        </div>
+      </section>
+
+      <section id="metrics" class="metrics"></section>
+
+      <section class="workbench">
+        <form id="entryForm" class="panel form-panel"></form>
+        <div class="panel result-panel">
+          <div class="panel-head">
+            <h3>即时诊断</h3>
+            <span id="recordCount" class="pill">0 条</span>
+          </div>
+          <div id="insight" class="insight"></div>
+          <div class="panel-head compact">
+            <h3>记录</h3>
+            <input id="recordSearch" placeholder="搜索记录">
+          </div>
+          <div id="records" class="records"></div>
+        </div>
+      </section>
+    </main>
+  </div>
+  <div id="toast" class="toast"></div>
+  <script src="app.js"></script>
+</body>
+</html>
