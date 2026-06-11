@@ -40,3 +40,9 @@
 - Folder: `/root`
 
 然后访问 GitHub Pages 链接即可。
+
+## 发布状态
+
+本目录已经是 Git 仓库，并包含 `.nojekyll`。如果 GitHub 连接可用，可以直接添加远程仓库并推送。
+
+更详细的发布步骤见 `PUBLISH.md`。
