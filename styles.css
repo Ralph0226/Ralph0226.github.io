@@ -30,6 +30,17 @@ button {
   padding: 0 12px;
   cursor: pointer;
 }
+a.download-link {
+  min-height: 38px;
+  border: 1px solid var(--brand);
+  border-radius: 7px;
+  background: var(--brand);
+  color: #fff;
+  padding: 0 12px;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
 button:hover { border-color: #9aa8ba; }
 button.primary { background: var(--brand); color: #fff; border-color: var(--brand); }
 button.primary:hover { background: var(--brand-dark); }

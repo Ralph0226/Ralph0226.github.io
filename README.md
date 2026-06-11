@@ -25,6 +25,18 @@
 - 一键复制传播文案
 - 适配电脑和手机浏览器
 
+## Windows EXE 下载
+
+10 个独立 Windows 程序已经放在：
+
+`native-exes/`
+
+在线下载页：
+
+`https://ralph0226.github.io/native-exes/`
+
+每个 exe 都配有对应 README，说明用途、适合人群、核心功能、数据位置和使用方式。
+
 ## 本地打开
 
 直接打开：

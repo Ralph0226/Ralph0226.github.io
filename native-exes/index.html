@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>十个 Windows EXE 应用下载</title>
+  <style>
+    :root {
+      --bg: #f6f7f9;
+      --panel: #ffffff;
+      --text: #172033;
+      --muted: #657286;
+      --line: #d9e0ea;
+      --brand: #0f766e;
+      --danger: #b42318;
+      font-family: "Segoe UI", "Microsoft YaHei", Arial, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); }
+    main { width: min(1120px, calc(100% - 28px)); margin: 0 auto; padding: 28px 0 42px; }
+    header { display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; margin-bottom: 18px; }
+    h1 { margin: 0 0 8px; font-size: 30px; }
+    p { margin: 0; color: var(--muted); line-height: 1.6; }
+    a { color: var(--brand); text-decoration: none; }
+    .home { display: inline-flex; align-items: center; min-height: 38px; border: 1px solid var(--line); border-radius: 7px; padding: 0 12px; background: #fff; white-space: nowrap; }
+    .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+    .card { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 16px; display: grid; gap: 12px; }
+    .card h2 { margin: 0; font-size: 19px; }
+    .meta { color: var(--muted); font-size: 13px; }
+    .actions { display: flex; flex-wrap: wrap; gap: 8px; }
+    .btn { display: inline-flex; align-items: center; min-height: 38px; border-radius: 7px; padding: 0 12px; border: 1px solid var(--line); background: #fff; color: var(--text); }
+    .btn.primary { background: var(--brand); border-color: var(--brand); color: #fff; }
+    .note { margin: 18px 0; padding: 14px; border: 1px solid #f2c78f; background: #fff7ed; border-radius: 8px; color: #7c3f05; }
+    @media (max-width: 760px) {
+      header { display: grid; }
+      .grid { grid-template-columns: 1fr; }
+      h1 { font-size: 24px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div>
+        <h1>十个 Windows EXE 应用下载</h1>
+        <p>每个需求书对应一个独立 Windows 程序。下载 exe 后双击即可运行，README 提供用途、功能、数据位置和使用方式。</p>
+      </div>
+      <a class="home" href="../">返回主页</a>
+    </header>
+
+    <div class="note">Windows 可能会提示“未知发布者”，这是因为这些 exe 没有购买代码签名证书。程序为本地 WinForms 工具，数据默认保存在 %APPDATA%\TenNativeApps。</div>
+
+    <section class="grid">
+      <article class="card"><h2>01. 电脑工伤账本</h2><p>久坐、用眼、肩颈和电脑工作健康损耗记录。</p><div class="meta">01-ComputerInjuryLedger.exe</div><div class="actions"><a class="btn primary" href="01-ComputerInjuryLedger.exe">下载 exe</a><a class="btn" href="01-ComputerInjuryLedger-README.md">查看 README</a></div></article>
+      <article class="card"><h2>02. 论文拖延急救箱</h2><p>本硕博论文推进、倒计时和最小任务拆解。</p><div class="meta">02-ThesisRescue.exe</div><div class="actions"><a class="btn primary" href="02-ThesisRescue.exe">下载 exe</a><a class="btn" href="02-ThesisRescue-README.md">查看 README</a></div></article>
+      <article class="card"><h2>03. 打工人能量预算</h2><p>精力预算、任务耗能和透支提醒。</p><div class="meta">03-EnergyBudget.exe</div><div class="actions"><a class="btn primary" href="03-EnergyBudget.exe">下载 exe</a><a class="btn" href="03-EnergyBudget-README.md">查看 README</a></div></article>
+      <article class="card"><h2>04. 工位微装修</h2><p>工位评分、人体工学和低预算改造记录。</p><div class="meta">04-DeskMakeover.exe</div><div class="actions"><a class="btn primary" href="04-DeskMakeover.exe">下载 exe</a><a class="btn" href="04-DeskMakeover-README.md">查看 README</a></div></article>
+      <article class="card"><h2>05. 会议废话压缩器</h2><p>会议结论、负责人、截止时间和待办追踪。</p><div class="meta">05-MeetingCompressor.exe</div><div class="actions"><a class="btn primary" href="05-MeetingCompressor.exe">下载 exe</a><a class="btn" href="05-MeetingCompressor-README.md">查看 README</a></div></article>
+      <article class="card"><h2>06. 简历战斗力雷达</h2><p>岗位匹配、关键词和量化成果诊断。</p><div class="meta">06-ResumeRadar.exe</div><div class="actions"><a class="btn primary" href="06-ResumeRadar.exe">下载 exe</a><a class="btn" href="06-ResumeRadar-README.md">查看 README</a></div></article>
+      <article class="card"><h2>07. 今日不背锅</h2><p>职场留痕、需求变更和确认话术。</p><div class="meta">07-NoBlameToday.exe</div><div class="actions"><a class="btn primary" href="07-NoBlameToday.exe">下载 exe</a><a class="btn" href="07-NoBlameToday-README.md">查看 README</a></div></article>
+      <article class="card"><h2>08. 跨屏剪贴管家</h2><p>链接、文字、截图说明和资料稍后整理。</p><div class="meta">08-ClipManager.exe</div><div class="actions"><a class="btn primary" href="08-ClipManager.exe">下载 exe</a><a class="btn" href="08-ClipManager-README.md">查看 README</a></div></article>
+      <article class="card"><h2>09. 睡前收工仪式</h2><p>下班断联、担忧暂存和明日三件事。</p><div class="meta">09-ShutdownRitual.exe</div><div class="actions"><a class="btn primary" href="09-ShutdownRitual.exe">下载 exe</a><a class="btn" href="09-ShutdownRitual-README.md">查看 README</a></div></article>
+      <article class="card"><h2>10. 学习工作复利账本</h2><p>学习、写作、运动、工作微进步记录。</p><div class="meta">10-CompoundLedger.exe</div><div class="actions"><a class="btn primary" href="10-CompoundLedger.exe">下载 exe</a><a class="btn" href="10-CompoundLedger-README.md">查看 README</a></div></article>
+    </section>
+  </main>
+</body>
+</html>
